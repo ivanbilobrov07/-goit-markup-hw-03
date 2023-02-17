@@ -56,6 +56,10 @@ body {
   color: var(--title-text-color);
 }
 
+.section {
+  padding-bottom: 120px;
+}
+
 .button {
   cursor: pointer;
   font-family: inherit;
@@ -66,6 +70,10 @@ body {
 }
 
 /* =============== Header =============== */
+
+.header {
+  border-bottom: 1px solid var(--accent-text-color);
+}
 
 .header-inner {
   display: flex;
@@ -146,7 +154,6 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 
   background-color: var(--title-text-color);
   text-align: center;
@@ -183,7 +190,7 @@ body {
 /* =============== Features =============== */
 
 .features {
-  margin-bottom: 120px;
+  padding-top: 120px;
 }
 
 .features-list {
@@ -193,7 +200,6 @@ body {
 
 .features-list li {
   flex-basis: 264px;
-  border: 1px solid #e7e9fc;
 }
 
 .features-title {
@@ -205,10 +211,6 @@ body {
 }
 
 /* =============== Examples =============== */
-
-.examples {
-  margin-bottom: 120px;
-}
 
 .examples-list {
   display: flex;
@@ -229,7 +231,6 @@ body {
 
 .team {
   padding-top: 120px;
-  padding-bottom: 120px;
 
   background-color: var(--background-color);
 }
