@@ -193,6 +193,7 @@ body {
 
 .features-list li {
   flex-basis: 264px;
+  border: 1px solid #e7e9fc;
 }
 
 .features-title {
@@ -240,7 +241,15 @@ body {
   text-align: center;
 }
 
-.team-item {
+.team-item img {
+  display: block;
+}
+
+.team-item-descr {
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: var(--white-color);
 }
 
