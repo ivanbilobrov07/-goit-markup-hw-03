@@ -61,6 +61,7 @@ body {
 }
 
 .button {
+  border: none;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
@@ -162,7 +163,7 @@ body {
 .hero-title {
   max-width: 495px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 
   font-size: 56px;
   line-height: 1.07;
@@ -172,7 +173,6 @@ body {
 .primary-button {
   min-width: 169px;
   padding: 16px 32px;
-  border: 2px solid transparent;
   border-radius: 4px;
 
   color: var(--white-color);
@@ -182,9 +182,7 @@ body {
 
 .primary-button:hover,
 .primary-button:focus {
-  background-color: var(--white-color);
-  color: var(--accent-color);
-  border: 2px solid var(--accent-color);
+  background-color: var(--main-hover-color);
 }
 
 /* =============== Features =============== */
@@ -219,7 +217,7 @@ body {
 
 .examples-title,
 .team-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
   font-weight: 700;
   font-size: 36px;
@@ -247,6 +245,7 @@ body {
 }
 
 .team-item-descr {
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -255,12 +254,7 @@ body {
 }
 
 .team-item-title {
-  padding-top: 32px;
-  padding-bottom: 8px;
-}
-
-.team-item-text {
-  padding-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 /* =============== Footer =============== */
@@ -273,6 +267,7 @@ body {
 }
 
 .footer .logo {
+  padding-top: 16px;
   padding-bottom: 16px;
 }
 
@@ -305,9 +300,7 @@ body {
   border: 1px solid var(--accent-text-color);
   border-radius: 4px;
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  background-color: var(--accent-text-color);
+  background-color: var(--background-color);
   color: var(--accent-color);
 }
 
@@ -315,6 +308,8 @@ body {
 .secondary-button:focus {
   border: 1px solid transparent;
 
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--main-hover-color);
   color: var(--white-color);
 }
