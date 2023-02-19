@@ -249,9 +249,14 @@ body {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
 
   text-align: center;
+}
+
+.team-list li {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-item img {
@@ -333,6 +338,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+
+.portfolio-list li {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-link {
