@@ -29,6 +29,14 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
 /* =============== Common =============== */
 
 body {
